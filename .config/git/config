@@ -1,0 +1,13 @@
+[user]
+	email = zloutek1@gmail.com
+	name = zloutek1
+
+[credential]
+	helper = store --file=$XDG_CONFIG_HOME/git/credentials
+
+[core]
+	autocrlf = input
+
+[init]
+    defaultBranch = main
+
