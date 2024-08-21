@@ -1,5 +1,7 @@
 # My Hyprland Dotfiles
 
+![Screenshot](./assets/hyprland.png)
+
 ## Installation
 
 Clone the repository to `~/dotfiles` using git
