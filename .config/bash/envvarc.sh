@@ -10,16 +10,18 @@ export BROWSER="google-chrome-stable"
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
 export GRADLE_USER_HOME="$XDG_DATA_HOME/gradle"
 export MPLAYER_HOME="$XDG_CONFIG_HOME/mplayer"
-export ANDROID_HOME="$XDG_DATA_HOME"/android
-export HISTFILE="${XDG_STATE_HOME}"/bash/history
-export CARGO_HOME="$XDG_DATA_HOME"/cargo
-export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
-export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export ANDROID_HOME="$XDG_DATA_HOME/android"
+export HISTFILE="$XDG_STATE_HOME/bash/history"
+export CARGO_HOME="$XDG_DATA_HOME/cargo"
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME/nv"
+export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
-export NUGET_PACKAGES="$XDG_CACHE_HOME"/NuGetPackages
-export GOPATH="$XDG_DATA_HOME"/go
-export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
-
+export NUGET_PACKAGES="$XDG_CACHE_HOME/NuGetPackages"
+export GOPATH="$XDG_DATA_HOME/go"
+export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
+export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
+export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
+export HYPRSHOT_DIR="$(xdg-user-dir PICTURES)/screenshots"
 
 # exporting PATH
 export PATH="$HOME/.local/bin:$PATH"

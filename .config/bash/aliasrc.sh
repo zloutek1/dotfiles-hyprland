@@ -16,7 +16,7 @@ alias teams="teams --disable-seccomp-filter-sandbox"
 
 # substitutions 
 command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"
-
+alias neofetch="fastfetch"
 
 # colors
 alias ls="${BASH_ALIASES[ls]} --color=auto"

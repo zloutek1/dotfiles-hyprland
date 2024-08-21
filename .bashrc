@@ -14,3 +14,5 @@ export XDG_STATE_HOME=${XDG_STATE_HOME:="$HOME/.local/state"}
 for file in $XDG_CONFIG_HOME/bash/*; do
 	[ -f "$file" ] && source "$file"
 done
+
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.bash ] && source "${XDG_CONFIG_HOME:-$HOME/.config}"/fzf/fzf.bash
