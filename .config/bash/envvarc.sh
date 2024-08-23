@@ -21,7 +21,6 @@ export GOPATH="$XDG_DATA_HOME/go"
 export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
 export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
-export HYPRSHOT_DIR="$(xdg-user-dir PICTURES)/screenshots"
 
 # exporting PATH
 export PATH="$HOME/.local/bin:$PATH"
