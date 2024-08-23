@@ -11,3 +11,5 @@
 [init]
     defaultBranch = main
 
+[includeIf "gitdir:~/work/inQool/"]
+  path = inQool-config
