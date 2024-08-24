@@ -83,6 +83,10 @@ window#waybar {
   padding-top: 3px;
 }
 
+#network, #battery {
+  padding-right: 10px;
+}
+
 #battery.charging {
     color: #26A65B;
 }
