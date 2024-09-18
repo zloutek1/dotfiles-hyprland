@@ -3,7 +3,7 @@
 export TERMINAL="kitty"
 export EDITOR="vim"
 export VISUAL="vim"
-export BROWSER="google-chrome-stable"
+export BROWSER="zen-browser"
 
 
 # Fixing paths
